@@ -8,6 +8,6 @@ class TestController{
 
     @GetMapping("/")
     fun helloworld(): String{
-        return "I like koyeb";
+        return "Hello heroku";
     }
 }
